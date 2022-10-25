@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Variables : MonoBehaviour {
 
-    int moedas;
-
+    
     // Start is called before the first frame update
     void Start() {
-        moedas = 10;
-        print($"Moedas {moedas}");
+        var range = new RangeInt(30, 10);
+        
     }
 
     // Update is called once per frame
