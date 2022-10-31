@@ -6,6 +6,7 @@ TagManager:
   tags:
   - box1
   - box2
+  - box4
   layers:
   - Default
   - TransparentFX
